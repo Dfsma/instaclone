@@ -1,0 +1,17 @@
+{
+  "name": "insta-back",
+  "version": "1.0.0",
+  "description": "El servidor de la app insta-clone",
+  "main": "index.js",
+  "author": "Diego F",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.4.6"
+  }
+}
